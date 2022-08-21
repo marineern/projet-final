@@ -1,0 +1,63 @@
+@font-face { /* définition de ma police globale */
+    font-family: 'droidsans-webfont';
+    src: url('droidsans-webfont.eot');
+    src: url('droidsans-webfont.svg');
+    src: url('droidsans-webfont.ttf');
+    src: url('droidsans-webfont.woff');
+}
+
+body /*police globale du site*/ {
+font-family: 'droidsans-webfont', Arial, Helvetica, sans-serif
+}
+
+h2 /*couleur pour titres h2*/ {
+color: #029d5b;
+text-align: center;
+}
+
+h1 /*couleur pour titres h1*/ {
+    color: #d5f31f;
+    }
+
+.containerimagesequipe {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    }
+
+.containerequipe2 {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    }
+
+.containerimagesservices {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    }
+
+.containerservice2 {
+    font-weight: bold;  
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    }
+
+.containerstat {
+    display: flex;
+    }
+
+.containerapropos2 {
+    border: 1px solid black ;
+    padding: 6px;
+    border-radius: 10px;
+    }   
+
+.containerapropos2 .containerimageapropos {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    }
