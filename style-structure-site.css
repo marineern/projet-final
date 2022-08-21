@@ -1,4 +1,4 @@
-@font-face { /* définition de ma police globale */
+@font-face /* définition police globale */ {
     font-family: 'droidsans-webfont';
     src: url('droidsans-webfont.eot');
     src: url('droidsans-webfont.svg');
@@ -6,58 +6,146 @@
     src: url('droidsans-webfont.woff');
 }
 
-body /*police globale du site*/ {
+body {
 font-family: 'droidsans-webfont', Arial, Helvetica, sans-serif
 }
 
-h2 /*couleur pour titres h2*/ {
+h2 {
 color: #029d5b;
 text-align: center;
 }
 
-h1 /*couleur pour titres h1*/ {
+h1 {
     color: #d5f31f;
     }
 
-.containerimagesequipe {
+/* HEADER */
+.image-header {
+    text-align: center;
+    }
+
+.texte-header {
+    text-align: right;
+    }
+
+/* EQUIPE */
+.container-principal-equipe {
+    text-align: center;
+    font-weight: bold;
+    }
+
+.container-description-equipe {
+    text-align: center;
+    font-weight: bold;
+    }
+
+.container-images-equipe {
     display: flex;
     justify-content: space-evenly;
     align-content: flex-start;
     }
 
-.containerequipe2 {
-    display: flex;
-    justify-content: center;
-    align-content: flex-start;
-    }
-
-.containerimagesservices {
+.container-noms-equipe {
     display: flex;
     justify-content: space-evenly;
     align-content: flex-start;
     }
 
-.containerservice2 {
+.container-description-noms-equipe {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    }
+
+/* SERVICES */
+.container-images-services {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    }
+
+.container-service-1 {
     font-weight: bold;  
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
     }
 
-.containerstat {
+/* CHIFFRES */
+.container-chiffres-1 {
     display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
     }
 
-.containerapropos2 {
+.container-chiffres-2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    }
+
+/* CONTACTS */
+.container-principal-contact {
+    text-align: center;
+    font-weight: bold;
+    }
+
+.container-description-contact {
+    text-align: center;
+    font-weight: bold;
+    }
+
+/* A PROPOS */
+.container-texte-principal {
     border: 1px solid black ;
     padding: 6px;
     border-radius: 10px;
-    }   
+    }
 
-.containerapropos2 .containerimageapropos {
+.container-a-propos-principal {
+    border: 1px solid black ;
+    padding: 6px;
+    border-radius: 10px;
+    }
+
+.container-texte-principal-1 {
     font-weight: bold;
+    }
+
+.container-image-a-propos {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    }
+
+.container-description-image-a-propos {
+    display: flex;
+    justify-content: left;
+    }
+
+.container-global-a-propos {
+    display: flex;
+    justify-content: space-evenly;
+    }
+
+/* GALERIE */
+.container-description-galerie {
+    text-align: center;
+    font-weight: bold;
+    }
+
+.container-image-galerie {
+    text-align: center;
+    }
+
+/* CONTACTS */
+.container-contact-titres {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    }
+        
+.container-contact-sous-titres {
+    display: flex;
     justify-content: space-evenly;
     align-content: flex-start;
     }
