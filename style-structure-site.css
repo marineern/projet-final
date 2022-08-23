@@ -11,37 +11,62 @@ body {
 font-family: 'droidsans-webfont', Arial, Helvetica, sans-serif
 }
 
-/* COULEURS */
+#bloc-page {
+    width: 900px;
+    margin: auto;
+    }
+
+/* COULEURS TITRES */
+h1 {
+    color: #d5f31f;
+    font-size: xx-large;
+    }
+
 h2 {
 color: #029d5b;
 text-align: center;
 font-size: xx-large;
 }
 
-h1 {
-    color: #d5f31f;
-    font-size: xx-large;
-    }
-
 /* HEADER */
-.navigation-1 {
-    text-align: left;
+header {
+display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#logo {
     color: rgb(29, 87, 28);
     font-weight: bold;
     font-size: x-large;
+    display: flex;
+    flex-direction: row;
+    width: 59px;
+    height: 60px;
     }
 
-.navigation-2 {
-    text-align: right;
-    font-weight: bold;
+nav ul {
+list-style-type: none;
+display: flex;
+text-align: left;
+    }
+
+nav li {
+margin-right: 15px;
+    }
+
+nav a {
+font-weight: bold;
+color: #1C2126;
+text-decoration: none;
     }
 
 /* IMAGE PRINCIPALE */    
-.image-principale {
+#image-principale {
     text-align: center;
     }
 
-.image-principale-texte {
+#image-principale-texte {
     text-align: right;
     }
 
@@ -78,6 +103,14 @@ h1 {
     }
 
 /* SERVICES */
+
+.container-principal-services {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+
 .container-images-services {
     display: flex;
     justify-content: space-around;
@@ -121,12 +154,6 @@ h1 {
     }
 
 /* A PROPOS */
-.container-texte-principal {
-    border: 1px solid black ;
-    padding: 6px;
-    border-radius: 10px;
-    }
-
 .container-a-propos-principal {
     border: 1px solid black ;
     padding: 6px;
@@ -135,6 +162,11 @@ h1 {
 
 .container-texte-principal-1 {
     font-weight: bold;
+    text-align: center
+    }
+.container-texte-principal-2 {
+    color: #565E65;
+    text-align: center
     }
 
 .container-image-a-propos {
@@ -145,11 +177,14 @@ h1 {
 .container-description-image-a-propos {
     display: flex;
     justify-content: left;
+    color: #053B44;
+    font-weight: bold;
     }
 
 .container-global-a-propos {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     }
 
 /* GALERIE */
@@ -173,4 +208,10 @@ h1 {
     display: flex;
     justify-content: space-evenly;
     align-content: flex-start;
+    }
+
+.container-pied {
+    text-align: left;
+    color: white;
+    background-color: #053B44;
     }
