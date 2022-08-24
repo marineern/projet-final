@@ -18,9 +18,9 @@ font-family: 'droidsans-webfont', Arial, Helvetica, sans-serif
 
 /* COULEURS TITRES */
 h1 {
-    color: #d5f31f;
-    font-size: xx-large;
-    }
+color: #d5f31f;
+font-size: xx-large;
+}
 
 h2 {
 color: #029d5b;
@@ -31,8 +31,8 @@ font-size: xx-large;
 /* HEADER */
 header {
 display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+justify-content: space-between;
+align-items: flex-end;
 }
 
 #logo {
@@ -49,17 +49,17 @@ nav ul {
 list-style-type: none;
 display: flex;
 text-align: left;
-    }
+}
 
 nav li {
 margin-right: 15px;
-    }
+}
 
 nav a {
 font-weight: bold;
 color: #1C2126;
 text-decoration: none;
-    }
+}
 
 /* IMAGE PRINCIPALE */    
 #image-principale {
@@ -71,12 +71,12 @@ text-decoration: none;
     }
 
 /* EQUIPE */
-.container-principal-equipe {
+#Paragraphe-Equipe-1 {
     text-align: center;
     font-weight: bold;
     }
-
-.container-description-equipe {
+    
+#Paragraphe-Equipe-2 {
     text-align: center;
     font-weight: bold;
     color: #1C2126;
@@ -102,55 +102,50 @@ text-decoration: none;
     color: #565E65;
     }
 
-/* SERVICES */
-
-.container-principal-services {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    }
-
-
-.container-images-services {
-    display: flex;
-    justify-content: space-around;
-    align-content: flex-start;
-    }
-
-.container-service-1 {
-    font-weight: bold;  
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    }
-
 /* CHIFFRES */
 .container-chiffres {
     background-color: #053B44;
     }
-
-.container-chiffres-1 {
+    
+#ligne-chiffres-1 {
     display: flex;
     justify-content: space-around;
     align-content: flex-start;
     }
-
-.container-chiffres-2 {
+    
+#ligne-chiffres-2 {
     display: flex;
     justify-content: space-around;
     align-content: flex-start;
     color: white;
     }
 
-/* CONTACTS */
-.container-principal-contact {
-    text-align: center;
-    font-weight: bold;
+/* SERVICES */
+#ligne-services-1 {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
     }
 
-.container-description-contact {
+#ligne-services-2 {
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    }
+
+/* CONTACTS */
+.container-principal-contact {
+    background-color: #053B44;
+    }
+
+#Premier-paragraphe {
     text-align: center;
     font-weight: bold;
+    color: white;
+    }
+
+#Deuxieme-paragraphe {
+    color: white;
     }
 
 /* A PROPOS */
