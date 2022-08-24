@@ -1,4 +1,4 @@
-/* POLICE */
+/* POLICE ET FORME */
 @font-face {
     font-family: 'droidsans-webfont';
     src: url('droidsans-webfont.eot');
@@ -18,14 +18,20 @@ font-family: 'droidsans-webfont', Arial, Helvetica, sans-serif
 
 /* COULEURS TITRES */
 h1 {
-color: #d5f31f;
+color: #029d5b;
+text-align: center;
+font-weight: bold;
 font-size: xx-large;
 }
 
 h2 {
-color: #029d5b;
-text-align: center;
+color: #d5f31f;
 font-size: xx-large;
+}
+
+h3 {
+color: #1C2126;
+font-size: large;
 }
 
 /* HEADER */
@@ -71,35 +77,30 @@ text-decoration: none;
     }
 
 /* EQUIPE */
-#Paragraphe-Equipe-1 {
+#titre {
     text-align: center;
     font-weight: bold;
-    }
-    
-#Paragraphe-Equipe-2 {
+}
+
+#paragraphe {
     text-align: center;
     font-weight: bold;
-    color: #1C2126;
-    }
+    color: #565e65;
+}
 
-.container-images-equipe {
+#images {
     display: flex;
     justify-content: space-evenly;
     align-content: flex-start;
     }
 
-.container-noms-equipe {
+#noms-et-descriptions   {
     display: flex;
     justify-content: space-evenly;
     align-content: flex-start;
-    color: #1C2126;
-    }
-
-.container-description-noms-equipe {
-    display: flex;
-    justify-content: space-evenly;
-    align-content: flex-start;
-    color: #565E65;
+    font-weight: bold; 
+    color: #053b44;
+    text-align: center;
     }
 
 /* CHIFFRES */
@@ -123,14 +124,15 @@ text-decoration: none;
 /* SERVICES */
 #ligne-services-1 {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-content: flex-start;
     }
 
-#ligne-services-2 {
+#ligne-services-2   {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-content: flex-start;
+    text-align: center;
     }
 
 /* CONTACTS */
@@ -149,37 +151,36 @@ text-decoration: none;
     }
 
 /* A PROPOS */
-.container-a-propos-principal {
+.container-texte-et-logos {
     border: 1px solid black ;
     padding: 6px;
     border-radius: 10px;
-    }
+}
 
-.container-texte-principal-1 {
+#titre {
+    text-align: center;
+    font-weight: bold; 
+    color: #1C2126;
+}
+
+#paragraphe {
+    text-align: center;
     font-weight: bold;
-    text-align: center
-    }
-.container-texte-principal-2 {
-    color: #565E65;
-    text-align: center
-    }
+    color: #565e65;
+}
 
-.container-image-a-propos {
+#logos {
     display: flex;
     justify-content: space-evenly;
+    align-content: flex-start;
     }
 
-.container-description-image-a-propos {
-    display: flex;
-    justify-content: left;
-    color: #053B44;
-    font-weight: bold;
-    }
-
-.container-global-a-propos {
+#sous-texte    {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-content: flex-start;
+    font-weight: bold; 
+    color: #053b44;
     }
 
 /* GALERIE */
@@ -192,21 +193,32 @@ text-decoration: none;
     text-align: center;
     }
 
-/* CONTACTS */
+/* CONTACTS/FOOTER */
+.container-contact-1 {
+    color: white;
+    background-color: #053B44;
+    }
+    
+.container-pied {
+    color: white;
+    background-color: #1c2126;
+    }
+    
 .container-contact-titres {
     display: flex;
     justify-content: space-evenly;
     align-content: flex-start;
+    font-size: medium;
     }
-        
+            
 .container-contact-sous-titres {
     display: flex;
     justify-content: space-evenly;
     align-content: flex-start;
+    font-size: small;
     }
-
+    
 .container-pied {
     text-align: left;
-    color: white;
-    background-color: #053B44;
+    font-size: small;
     }
