@@ -69,11 +69,15 @@ text-decoration: none;
 
 /* IMAGE PRINCIPALE */    
 #image-principale {
-    text-align: center;
+    position: relative;
     }
 
 #image-principale-texte {
+    position: absolute;
+    bottom: 0;
     text-align: right;
+    color: white;
+    font-size: x-large;
     }
 
 /* EQUIPE */
@@ -157,13 +161,13 @@ text-decoration: none;
     border-radius: 10px;
 }
 
-#titre {
+#titre-a-propos {
     text-align: center;
     font-weight: bold; 
     color: #1C2126;
 }
 
-#paragraphe {
+#paragraphe-a-propos {
     text-align: center;
     font-weight: bold;
     color: #565e65;
