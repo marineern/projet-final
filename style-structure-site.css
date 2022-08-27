@@ -204,6 +204,8 @@ text-decoration: none;
     }
     
 .container-pied {
+    text-align: left;
+    font-size: small;
     color: white;
     background-color: #1c2126;
     }
@@ -219,11 +221,6 @@ text-decoration: none;
     display: flex;
     justify-content: space-evenly;
     align-content: flex-start;
-    font-size: small;
-    }
-    
-.container-pied {
-    text-align: left;
     font-size: small;
     }
 
@@ -242,7 +239,8 @@ text-decoration: none;
     font-weight: bold;
 }
 
-.nom-tel-email-message {
+#nom, #telephone, #email, #message, #categorie, #ville {
     border-bottom-style: double;
-    color: white
+    color: white;
+    border-bottom: 1px solid white;
     }
