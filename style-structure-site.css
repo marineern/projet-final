@@ -98,10 +98,37 @@ text-decoration: none;
 }
 
 #images-equipe {
+    margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
-    align-content: flex-start;
     }
+    
+#image-equipe-1
+{
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: url('resources/image-1.jpg') no-repeat;
+}
+
+#image-equipe-2
+{
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: url('resources/image-2.jpg') no-repeat;
+}
+
+#image-equipe-3
+{
+    overflow: hidden;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background: url('resources/image-3.jpg') no-repeat;
+}
 
 #noms-et-descriptions   {
     display: flex;
@@ -110,11 +137,13 @@ text-decoration: none;
     font-weight: bold; 
     color: #053b44;
     text-align: center;
+    margin-bottom: 50px;
     }
 
 /* CHIFFRES */
 .container-chiffres {
     background-color: #053B44;
+    padding-bottom: 25px;
     }
     
 #ligne-chiffres-1 {
@@ -131,25 +160,48 @@ text-decoration: none;
     }
 
 /* SERVICES */
-#ligne-services-1 {
-    display: flex;
-    justify-content: space-evenly;
-    align-content: flex-start;
-    }
 
-#image-service-1, #image-service-2 {
+.container-services {
+padding-top: 25px;
+padding-bottom: 25px;
+} 
+
+#container-1, #container-2 {
     background-color: rgb(229, 232, 236);
-    }
+    border-radius: 10%;
+} 
 
-#ligne-services-2   {
+#images-services {
+    margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
-    align-content: flex-start;
-    text-align: center;
+}
+
+#image-service-1 {
+    overflow: hidden;
+    color: transparent;
+    background: url('resources/Vector.jpg') no-repeat;
+    height: 250px;
+    width: 250px;
+}
+
+#image-service-2 {
+    overflow: hidden;
+    color: transparent;
+    background: url('resources/Vector-1.jpg') no-repeat;
+    height: 250px;
+    width: 250px;
+}
+
+#texte-services {
+    display: flex;
+    justify-content: space-evenly;
     }
 
 /* CONTACTS */
 .container-principal-contact {
+    padding-top: 25px;
+    padding-bottom: 25px;
     background-color: #053B44;
     }
 
@@ -161,15 +213,40 @@ text-decoration: none;
 
 #Deuxieme-paragraphe {
     color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    font-size: small;
+    }
+    
+#envoyer {
+    padding: 6px;
+    border-radius: 10px;
+    background-color: #d5f31f;
+    color: #053B44;
+    font-weight: bold;
+    }
+    
+#nom, #telephone, #email, #message, #categorie, #ville {
+    border-bottom-style: double;
+    color: white;
+    border-bottom: 1px solid white;
     }
 
 /* A PROPOS */
 .bloc-a-propos {
+    padding-top: 25px;
+    padding-bottom: 25px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     }
-.image-a-propos {
-    
+
+.image-a-propos{
+    background: url(resources/jason-goodman-Oalh2MojUuk-unsplash-2.jpg) no-repeat;
+    border: 1px;
+    padding: 6px;
+    border-radius: 10px;
+    width: 450px;
 }
 
 .container-texte-et-logos {
@@ -190,18 +267,50 @@ text-decoration: none;
     color: #565e65;
 }
 
-#logos {
-    display: flex;
-    justify-content: space-evenly;
-    align-content: flex-start;
-    }
-
 #sous-texte    {
     display: flex;
     justify-content: space-evenly;
     align-content: flex-start;
+    margin-top: 1em;
     font-weight: bold; 
     color: #053b44;
+    }
+       
+#logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    margin-top: 1em;
+    }
+        
+#vecteur-1 {
+    color: transparent;
+    border-radius: 50%;
+    background: url('resources/Vector-2.jpg') no-repeat;
+    border: 3px solid black ;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    }
+        
+#vecteur-2 {
+    color: transparent;
+    border-radius: 50%;
+    background: url('resources/Vector-3.jpg') no-repeat;
+    border: 3px solid black ;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    }
+        
+#vecteur-3 {
+    color: transparent;
+    border-radius: 50%;
+    background: url('resources/Vector-4.jpg') no-repeat;
+    border: 3px solid black ;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
     }
 
 /* GALERIE */
@@ -216,11 +325,15 @@ text-decoration: none;
 
 /* CONTACTS/FOOTER */
 .container-contact-1 {
+    padding-top: 25px;
+    padding-bottom: 25px;
     color: white;
     background-color: #053B44;
     }
     
 .container-pied {
+    padding-top: 25px;
+    padding-bottom: 25px;
     text-align: left;
     font-size: small;
     color: white;
@@ -239,25 +352,4 @@ text-decoration: none;
     justify-content: space-evenly;
     align-content: flex-start;
     font-size: small;
-    }
-
-#Deuxieme-paragraphe {
-    display: flex;
-    justify-content: space-evenly;
-    align-content: flex-start;
-    font-size: small;
-    }
-
-#envoyer {
-    padding: 6px;
-    border-radius: 10px;
-    background-color: #d5f31f;
-    color: #053B44;
-    font-weight: bold;
-}
-
-#nom, #telephone, #email, #message, #categorie, #ville {
-    border-bottom-style: double;
-    color: white;
-    border-bottom: 1px solid white;
     }
