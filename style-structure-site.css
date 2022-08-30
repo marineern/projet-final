@@ -290,7 +290,6 @@ padding-bottom: 25px;
     border: 3px solid black ;
     height: 100px;
     width: 100px;
-    border-radius: 50%;
     }
         
 #vecteur-2 {
@@ -300,7 +299,6 @@ padding-bottom: 25px;
     border: 3px solid black ;
     height: 100px;
     width: 100px;
-    border-radius: 50%;
     }
         
 #vecteur-3 {
@@ -310,17 +308,23 @@ padding-bottom: 25px;
     border: 3px solid black ;
     height: 100px;
     width: 100px;
-    border-radius: 50%;
     }
 
 /* GALERIE */
 .container-description-galerie {
     text-align: center;
     font-weight: bold;
+    padding-bottom: 1em;
     }
 
-.container-image-galerie {
-    text-align: center;
+#image-galerie {
+    background: url('resources/kevin-bhagat-zNRITe8NPqY-unsplash-1.jpg') no-repeat;
+    height: 30em;
+    width: auto;
+    MARGIN-bottom: 2.5em;
+    border: 1px;
+    padding: 6px;
+    border-radius: 10px;
     }
 
 /* CONTACTS/FOOTER */
