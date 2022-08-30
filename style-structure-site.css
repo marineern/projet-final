@@ -69,18 +69,16 @@ text-decoration: none;
 
 /* IMAGE PRINCIPALE */    
 #image-principale {
-    background-image: url("resources/rodion-kutsaev-049M_crau5k-unsplash-1.jpg");
+    background: url("resources/rodion-kutsaev-049M_crau5k-unsplash-1.jpg") no-repeat;
     position: relative;
-    
+    height: 700px;
     }
 
 #image-principale-texte {
     position: absolute;
     bottom: 0;
-    border-radius: 0px 0px 5px 5px;
     width: 99.5%;
-    height: 50px;
-    padding-left: 800px;
+    text-align: right;
     color: white;
     font-size: x-large;
     }
