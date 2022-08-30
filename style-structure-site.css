@@ -221,10 +221,12 @@ padding-bottom: 25px;
     
 #envoyer {
     padding: 6px;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color: #d5f31f;
     color: #053B44;
     font-weight: bold;
+    padding-right: 2em;
+    padding-left: 2em;
     }
     
 #nom, #telephone, #email, #message, #categorie, #ville {
@@ -319,9 +321,10 @@ padding-bottom: 25px;
 
 #image-galerie {
     background: url('resources/kevin-bhagat-zNRITe8NPqY-unsplash-1.jpg') no-repeat;
-    height: 30em;
-    width: auto;
-    MARGIN-bottom: 2.5em;
+    height: 45em;
+    width: 70em;
+    margin-bottom: 2.5em;
+    margin-left: 9em;
     border: 1px;
     padding: 6px;
     border-radius: 10px;
@@ -338,10 +341,13 @@ padding-bottom: 25px;
 .container-pied {
     padding-top: 25px;
     padding-bottom: 25px;
-    text-align: left;
     font-size: small;
     color: white;
     background-color: #1c2126;
+    }
+
+#copyright {
+    text-align: left;
     }
     
 .container-contact-titres {
@@ -353,7 +359,22 @@ padding-bottom: 25px;
             
 .container-contact-sous-titres {
     display: flex;
-    justify-content: space-evenly;
+    justify-content:left;
     align-content: flex-start;
     font-size: small;
     }
+
+#facebook {
+    color: transparent;
+    background: url('icons/facebook.svg') no-repeat;
+    }
+
+#twitter {
+    color: transparent;
+    background: url('icons/twitter.svg') no-repeat;
+    }    
+
+#instagram {
+    color: transparent;
+    background: url('icons/instagram.svg') no-repeat;
+        }
