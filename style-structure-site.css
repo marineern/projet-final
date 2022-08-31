@@ -34,6 +34,16 @@ color: #1C2126;
 font-size: large;
 }
 
+h4 {
+color: white;
+font-size: medium;
+}
+
+h5 {
+color: white;
+font-size: small;
+}
+
 /* HEADER */
 header {
 display: flex;
@@ -176,16 +186,12 @@ padding-bottom: 25px;
 }
 
 #image-service-1 {
-    overflow: hidden;
-    color: transparent;
     background: url('resources/Vector.jpg') no-repeat;
     height: 250px;
     width: 250px;
 }
 
 #image-service-2 {
-    overflow: hidden;
-    color: transparent;
     background: url('resources/Vector-1.jpg') no-repeat;
     height: 250px;
     width: 250px;
@@ -210,27 +216,28 @@ padding-bottom: 25px;
     }
 
 #Deuxieme-paragraphe {
-    color: white;
     display: flex;
     justify-content: space-evenly;
-    align-content: flex-start;
+    color: white;
     font-size: small;
+    padding-top: 25px;
     }
     
 #envoyer {
-    padding: 6px;
-    border-radius: 15px;
     background-color: #d5f31f;
     color: #053B44;
     font-weight: bold;
-    padding-right: 2em;
-    padding-left: 2em;
+    padding: 6px;
+    border-radius: 15px;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 50px;
     }
     
 #nom, #telephone, #email, #message, #categorie, #ville {
-    border-bottom-style: double;
+    width: 400px;
     color: white;
-    border-bottom: 1px solid white;
+    border-bottom: 2.5px solid white;
     }
 
 /* A PROPOS */
@@ -253,6 +260,10 @@ padding-bottom: 25px;
     border: 1px solid black ;
     padding: 6px;
     border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #titre-a-propos {
@@ -284,7 +295,6 @@ padding-bottom: 25px;
     }
         
 #vecteur-1 {
-    color: transparent;
     border-radius: 50%;
     background: url('resources/Vector-2.jpg') no-repeat;
     border: 3px solid black ;
@@ -293,7 +303,6 @@ padding-bottom: 25px;
     }
         
 #vecteur-2 {
-    color: transparent;
     border-radius: 50%;
     background: url('resources/Vector-3.jpg') no-repeat;
     border: 3px solid black ;
@@ -302,7 +311,6 @@ padding-bottom: 25px;
     }
         
 #vecteur-3 {
-    color: transparent;
     border-radius: 50%;
     background: url('resources/Vector-4.jpg') no-repeat;
     border: 3px solid black ;
@@ -329,50 +337,67 @@ padding-bottom: 25px;
     }
 
 /* CONTACTS/FOOTER */
-.container-contact-1 {
+.container-contact-top {
     padding-top: 25px;
     padding-bottom: 25px;
-    color: white;
     background-color: #053B44;
     }
     
-.container-pied {
+.container-contact-bottom {
+    display: flex;
+    justify-content: space-between;
     padding-top: 25px;
     padding-bottom: 25px;
-    font-size: small;
-    color: white;
     background-color: #1c2126;
     }
-
-#copyright {
-    text-align: left;
-    }
-    
-.container-contact-titres {
+            
+.container-contact-sections {
     display: flex;
     justify-content: space-evenly;
     align-content: flex-start;
-    font-size: medium;
-    }
-            
-.container-contact-sous-titres {
-    display: flex;
-    justify-content:left;
-    align-content: flex-start;
     font-size: small;
     }
 
+#icon-telephone {
+    background: url('icons/phone.svg') no-repeat;
+    height:  60px;
+    width: 60px;
+    }
+
+#icon-localisation {
+    background: url('icons/location.svg') no-repeat;
+    height:  60px;
+    width: 60px;
+    }
+
+#copyright {
+    padding-left: 130px;
+    padding-top: 4px;
+    } 
+
+#icons-reseaux {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    } 
+
 #facebook {
-    color: transparent;
     background: url('icons/facebook.svg') no-repeat;
+    height: 50px;
+    width: 50px;
     }
 
 #twitter {
-    color: transparent;
     background: url('icons/twitter.svg') no-repeat;
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
     }    
 
 #instagram {
-    color: transparent;
     background: url('icons/instagram.svg') no-repeat;
-        }
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+    padding-left: 120px;
+    }
