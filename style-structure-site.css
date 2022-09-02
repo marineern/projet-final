@@ -21,7 +21,7 @@ h1 {
 color: #029d5b;
 text-align: center;
 font-weight: bold;
-font-size: xx-large;
+padding-top: 20px;
 }
 
 h2 {
@@ -46,48 +46,61 @@ font-size: small;
 
 /* HEADER */
 header {
-display: flex;
-justify-content: space-between;
-align-items: flex-end;
-}
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: white;
+    }
+
+#logo-principal {
+    display: flex;
+    flex-direction: column;
+    }
 
 #logo {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
     color: rgb(29, 87, 28);
     font-weight: bold;
     font-size: x-large;
-    display: flex;
-    flex-direction: row;
     width: 59px;
     height: 60px;
     }
 
 nav ul {
-list-style-type: none;
-display: flex;
-text-align: left;
-}
+    list-style-type: none;
+    display: flex;
+    }
 
 nav li {
-margin-right: 15px;
-}
+    margin-right: 15px;
+    }
 
 nav a {
-font-weight: bold;
-color: #1C2126;
-text-decoration: none;
-}
+    font-weight: bold;
+    color: #1C2126;
+    padding-bottom: 3px;
+    text-decoration: none;
+    }
+
+nav a:hover {
+    color: #760001;
+    border-bottom: 3px solid #760001;
+    }
 
 /* IMAGE PRINCIPALE */    
 #image-principale {
-    background: url("resources/rodion-kutsaev-049M_crau5k-unsplash-1.jpg") no-repeat;
+    background: url("resources/rodion-kutsaev-049M_crau5k-unsplash-1-resized.jpg") no-repeat;
     position: relative;
     height: 700px;
+    margin-top: 20px;
     }
 
 #image-principale-texte {
     position: absolute;
     bottom: 0;
-    width: 99.5%;
+    width: 80%;
     text-align: right;
     color: white;
     font-size: x-large;
@@ -192,6 +205,10 @@ text-decoration: none;
     border-radius: 10%;
 }
 
+#image-service-1:hover, #image-service-2:hover {
+    background-color: rgb(197, 224, 199);
+}
+
 /* CONTACTS */
 .container-principal-contact {
     padding-top: 25px;
@@ -232,6 +249,7 @@ text-decoration: none;
 
 /* A PROPOS */
 .bloc-a-propos {
+    margin-top: 20px;
     padding-top: 25px;
     padding-bottom: 25px;
     display: flex;
@@ -313,13 +331,17 @@ text-decoration: none;
     padding-bottom: 1em;
     }
 
-#image-galerie {
-    background: url('resources/kevin-bhagat-zNRITe8NPqY-unsplash-1.jpg') no-repeat;
-    height: 45em;
-    width: 70em;
-    margin-bottom: 2.5em;
-    margin-left: 9em;
-    border: 1px;
+    /* DIAPO GALERIE IMAGE */
+    
+   
+        
+    #galerie {
+    max-width: auto;
+    max-height: auto;
+    display: flex; 
+    overflow-y: hidden;
+    scroll-behavior: smooth;
+    order: 1px;
     padding: 6px;
     border-radius: 10px;
     }
