@@ -16,6 +16,15 @@ font-family: 'droidsans-webfont', Arial, Helvetica, sans-serif
     margin: auto;
     }
 
+@media all and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;
+    }
+}
+
+
 /* COULEURS TITRES */
 h1 {
 color: #029d5b;
@@ -345,20 +354,21 @@ nav a:hover {
 .container-description-galerie {
     text-align: center;
     font-weight: bold;
-    padding-bottom: 1em;
+    padding-bottom: 25px;
     }
 
     /* DIAPO GALERIE IMAGE */
     #galerie {
-    max-width: auto;
-    max-height: auto;
-    display: flex; 
-    overflow-y: hidden;
-    scroll-behavior: smooth;
-    order: 1px;
-    padding: 6px;
-    border-radius: 10px;
-    }
+  max-width: 900px;
+  max-height: 600px;
+  margin-left: 250px;
+  margin-bottom: 100px;
+  display: flex; 
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  order: 1px;
+  border-radius: 10px;
+  }
 
 /* CONTACTS/FOOTER */
 .container-contact-top {
