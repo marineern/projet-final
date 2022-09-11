@@ -16,14 +16,46 @@ font-family: 'droidsans-webfont', Arial, Helvetica, sans-serif
     margin: auto;
     }
 
-@media all and (max-width: 1024px)
+/* MEDIA QUERIES */
+
+@media all and (max-width: 1024px) 
 {
-    #bloc_page
+      /*BARRE NAV */ 
+    nav
     {
         width: auto;
+        margin: auto;
+        text-align: left;
+    }
+    
+    nav ul
+    {
+        flex-direction: column;
+    }
+
+    nav li
+    {
+        padding-left: 4px;
+    }
+    
+    nav a
+    {
+        font-size: 1.1em;
+    }
+    
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+
+    .image-principale-avec-texte
+    {
+        display: none;
+    }
+    #ancre-equipe {
+        padding-top: 200px;
     }
 }
-
 
 /* COULEURS TITRES */
 h1 {
